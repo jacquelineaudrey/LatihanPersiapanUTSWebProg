@@ -1,0 +1,60 @@
+:root {
+    --edu-primary: #1b74b9;
+    --edu-footer: #f3faff;
+}
+
+.text-edu-primary {
+    color: var(--edu-primary);
+}
+
+.bg-edu-footer {
+    background-color: var(--edu-footer);
+}
+
+.navbar {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link,
+.navbar .navbar-brand {
+    color: black;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar .navbar-brand:hover {
+    color: var(--edu-primary);
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.btn-edu-primary {
+    background-color: var(--edu-primary);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-edu-primary:hover {
+    background-color: #155a8a;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.btn-edu-primary:active {
+    transform: translateY(0);
+    background-color: #134b6e;
+}
+
+.writer-card:hover {
+    box-shadow: 0 8px 20px rgba(157, 152, 188, 0.3);
+    transform: translateY(-5px);
+}
